@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Open the browser:chrome]]>
     </line>
     <line>
-      <![CDATA[Enter the URL:http://google.com]]>
+      <![CDATA[Enter the URL:https://demo.actitime.com/login.do]]>
     </line>
     <line>
       <![CDATA[Maximize the browser]]>
@@ -14,7 +14,7 @@
       <![CDATA[Set the TimeOut:10]]>
     </line>
     <line>
-      <![CDATA[Google]]>
+      <![CDATA[actiTIME - Login]]>
     </line>
     <line>
       <![CDATA[XL:Bhanu]]>
@@ -22,13 +22,31 @@
     <line>
       <![CDATA[Close the browser]]>
     </line>
+    <line>
+      <![CDATA[Open the browser:chrome]]>
+    </line>
+    <line>
+      <![CDATA[Enter the URL:https://demo.actitime.com/login.do]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the browser]]>
+    </line>
+    <line>
+      <![CDATA[Set the TimeOut:10]]>
+    </line>
+    <line>
+      <![CDATA[HomePage is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-02-14T08:40:21 IST" name="Suite" finished-at="2023-02-14T08:40:30 IST" duration-ms="8678">
+  <suite started-at="2023-02-15T09:14:43 IST" name="Suite" finished-at="2023-02-15T09:15:11 IST" duration-ms="27473">
     <groups>
     </groups>
-    <test started-at="2023-02-14T08:40:21 IST" name="Test" finished-at="2023-02-14T08:40:30 IST" duration-ms="8678">
+    <test started-at="2023-02-15T09:14:43 IST" name="Test" finished-at="2023-02-15T09:15:11 IST" duration-ms="27473">
       <class name="scripts.TestCase1">
-        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.TestCase1@6221a451]" started-at="2023-02-14T08:40:21 IST" name="openApp" finished-at="2023-02-14T08:40:28 IST" duration-ms="6692" status="PASS">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.TestCase1@3012646b]" started-at="2023-02-15T09:14:44 IST" name="openApp" finished-at="2023-02-15T09:14:56 IST" duration-ms="12603" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +55,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[http://google.com]]>
+                <![CDATA[https://demo.actitime.com/login.do]]>
               </value>
             </param>
             <param index="2">
@@ -51,7 +69,7 @@
               <![CDATA[Open the browser:chrome]]>
             </line>
             <line>
-              <![CDATA[Enter the URL:http://google.com]]>
+              <![CDATA[Enter the URL:https://demo.actitime.com/login.do]]>
             </line>
             <line>
               <![CDATA[Maximize the browser]]>
@@ -61,17 +79,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testA()[pri:0, instance:scripts.TestCase1@6221a451]" started-at="2023-02-14T08:40:28 IST" name="testA" finished-at="2023-02-14T08:40:29 IST" duration-ms="1503" status="PASS">
+        <test-method signature="testA()[pri:0, instance:scripts.TestCase1@3012646b]" started-at="2023-02-15T09:14:56 IST" name="testA" finished-at="2023-02-15T09:14:58 IST" duration-ms="1460" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Google]]>
+              <![CDATA[actiTIME - Login]]>
             </line>
             <line>
               <![CDATA[XL:Bhanu]]>
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.TestCase1@6221a451]" started-at="2023-02-14T08:40:29 IST" name="closeApp" finished-at="2023-02-14T08:40:30 IST" duration-ms="375" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.TestCase1@3012646b]" started-at="2023-02-15T09:14:58 IST" name="closeApp" finished-at="2023-02-15T09:14:58 IST" duration-ms="459" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the browser]]>
@@ -79,6 +97,55 @@
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- scripts.TestCase1 -->
+      <class name="scripts.ValidLogin">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.ValidLogin@78e4deb0]" started-at="2023-02-15T09:14:58 IST" name="openApp" finished-at="2023-02-15T09:15:07 IST" duration-ms="8545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.actitime.com/login.do]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open the browser:chrome]]>
+            </line>
+            <line>
+              <![CDATA[Enter the URL:https://demo.actitime.com/login.do]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the browser]]>
+            </line>
+            <line>
+              <![CDATA[Set the TimeOut:10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogin@78e4deb0]" started-at="2023-02-15T09:15:07 IST" name="testValidLogin" finished-at="2023-02-15T09:15:11 IST" duration-ms="3882" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.ValidLogin@78e4deb0]" started-at="2023-02-15T09:15:11 IST" name="closeApp" finished-at="2023-02-15T09:15:11 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.ValidLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
